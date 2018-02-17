@@ -1,0 +1,159 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+header
+{
+    background-image: url(cover.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.main-nav
+{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.main-nav li
+{
+    display: inline-block;
+}
+
+.main-nav li a
+{
+    color:azure;
+    text-decoration: none;
+    padding: 20px 50px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
+
+.main-nav li.active a
+{
+    border: 1px solid white;
+}
+
+.main-nav li a:hover
+{
+    border: 1px solid white;
+}
+
+.logo img
+{
+    width: 250px;
+    height:auto;
+    float: left;
+}
+
+body
+{
+    font-family: monospace;
+}
+
+.row
+{
+    max-width: 1200px;
+    margin:auto;
+}
+
+.greetings
+{
+    position: absolute;
+    width: 1200px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+h1
+{
+    color:azure;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-left: 400px;
+    margin-top: 160px;
+}
+
+.button1
+{
+    margin-top: 30px;
+    margin-left: 400px;
+}
+
+.button2
+{
+    margin-top: 60px;
+    margin-left: 400px;
+}
+
+.button3
+{
+    margin-top: 80px;
+    margin-left: 400px;
+}
+
+
+.btn
+{
+    border: 1px solid white;
+    padding: 10px 30px;
+    color: azure;
+    text-decoration: none;
+    margin-right: 5px;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+
+.btn-one
+{
+    background-color: darkturquoise;
+    font-family: "Roboto", sans-serif;
+    
+}
+
+.btn-two
+{
+    background-color: darkturquoise;
+    font-family: "Roboto", sans-serif;
+    
+}
+
+.btn-three
+{
+    background-color: darkturquoise;
+    font-family: "Roboto", sans-serif;
+    
+}
+
+.btn-one:hover
+{
+    background-color:bisque;
+    transition: all 0.5 ease-in;
+}
+
+.btn-two:hover
+{
+    background-color:bisque;
+    transition: all 0.5 ease-in;
+}
+
+.btn-three:hover
+{
+    background-color:bisque;
+    transition: all 0.5 ease-in;
+}
+
+
+
+
+
+
+
+
+
+
