@@ -6,7 +6,7 @@
 
 header
 {
-    background-image: url(cover.png);
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(cover.png);
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -28,9 +28,16 @@ header
 {
     color:azure;
     text-decoration: none;
-    padding: 20px 50px;
+    padding: 20px 30px;
     font-family: "Roboto", sans-serif;
     font-size: 15px;
+}
+
+.main-nav li a:hover
+{
+    border: 1px solid white;
+    background-color: darkturquoise;
+    transition: all 0.5 ease-in;
 }
 
 .main-nav li.active a
@@ -38,10 +45,7 @@ header
     border: 1px solid white;
 }
 
-.main-nav li a:hover
-{
-    border: 1px solid white;
-}
+
 
 .logo img
 {
@@ -64,7 +68,7 @@ body
 .greetings
 {
     position: absolute;
-    width: 1200px;
+    width: 1500px;
     margin-left: 0px;
     margin-top: 0px;
 }
@@ -72,79 +76,76 @@ body
 h1
 {
     color:azure;
-    text-transform: uppercase;
     font-size: 40px;
+    font-family: "Roboto", monospace;
     margin-left: 400px;
     margin-top: 160px;
 }
 
 .button1
 {
-    margin-top: 30px;
-    margin-left: 400px;
+    margin-top: 50px;
+    text-align: center;
 }
 
 .button2
 {
-    margin-top: 60px;
-    margin-left: 400px;
+    margin-top: 110px;
+    text-align: center;
 }
 
 .button3
 {
-    margin-top: 80px;
-    margin-left: 400px;
+    margin-top: 110px;
+    text-align: center;
 }
 
 
 .btn
 {
     border: 1px solid white;
-    padding: 10px 30px;
+    padding: 40px 260px;
     color: azure;
     text-decoration: none;
     margin-right: 5px;
-    font-size: 13px;
+    font-size: 40px;
     text-transform: uppercase;
 }
 
 
 .btn-one
 {
-    background-color: darkturquoise;
     font-family: "Roboto", sans-serif;
     
 }
 
 .btn-two
 {
-    background-color: darkturquoise;
     font-family: "Roboto", sans-serif;
     
 }
 
 .btn-three
 {
-    background-color: darkturquoise;
     font-family: "Roboto", sans-serif;
     
 }
 
 .btn-one:hover
 {
-    background-color:bisque;
+    background-color:darkturquoise;
     transition: all 0.5 ease-in;
 }
 
 .btn-two:hover
 {
-    background-color:bisque;
+    background-color:darkturquoise;
     transition: all 0.5 ease-in;
 }
 
 .btn-three:hover
 {
-    background-color:bisque;
+    background-color:darkturquoise;
     transition: all 0.5 ease-in;
 }
 
