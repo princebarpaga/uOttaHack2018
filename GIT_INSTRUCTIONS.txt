@@ -1,0 +1,30 @@
+-touch index.html or script.js
+>wil create that empty file
+-git init
+> initializes the current directory as a repository. will create a .git folder.
+> after this you can perform git commands.
+-git config --global user.name 'Arman Golmakan'
+>adds name to git
+-git config --global user.mail 'arman_g75@yahoo.com'
+>adds email to git
+-git add index.html
+>adds a file to repository
+-git status
+>shows file in staging area (ready to be committed) and untracked files 
+(files not yet added to repository
+-git rm --cached index.html
+>untracks a file from staging area
+-git add .
+> adds all the files in directory 
+
+#COMMITING
+METHOD1:
+-git commit
+> commits and enters vi editor. then press "i" to go to insert mode.
+then write "Initial commit". then press Esc. then type :wq.
+METHOD2:
+-git commit -m 'another change'
+>a shortcut
+
+>ommitting a file from being committed> add a dot behind the file name. 
+
