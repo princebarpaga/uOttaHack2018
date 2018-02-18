@@ -1,0 +1,170 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav
+{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.main-nav li
+{
+    display: inline-block;
+}
+
+.main-nav li a
+{
+    color:azure;
+    text-decoration: none;
+    padding: 10px 30px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
+
+
+.main-nav li.active a
+{
+    border: 1px solid white;
+}
+
+.main-nav li a:hover
+{
+    border: 1px solid white;
+    background-color: darkturquoise;
+    transition: all 0.5 ease-in;
+}
+
+.logo img
+{
+    width: 250px;
+    height:auto;
+    float: left;
+}
+
+h1
+{
+    position: absolute;
+    color:azure;
+    font-size: 40px;
+    font-family: "Roboto", monospace;
+    margin-left: 400px;
+    margin-top: 160px;
+}
+
+.btn-one
+{
+    margin-top: 260px;
+    text-align: center;
+    padding: 10px 150px;
+}
+
+.btn-two
+{
+    margin-top: 330px;
+    text-align: center;
+    padding: 10px 149px;
+}
+
+.btn-three
+{
+    margin-top: 400px;
+    text-align: center;
+    padding: 10px 139px;
+}
+
+.btn-four
+{
+    margin-top: 470px;
+    text-align: center;
+    padding: 10px 157px;
+}
+
+.btn
+{
+    font-family: "Roboto", sans-serif;
+    border: 1px solid white;
+    position: absolute;
+    
+    color: azure;
+    text-decoration: none;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.btn-one:hover
+{
+    background-color:darkturquoise;
+    transition: all 0.5 ease-in;
+}
+
+.btn-two:hover
+{
+    background-color:darkturquoise;
+    transition: all 0.5 ease-in;
+}
+
+.btn-three:hover
+{
+    background-color:darkturquoise;
+    transition: all 0.5 ease-in;
+}
+
+.btn-four:hover
+{
+    background-color:darkturquoise;
+    transition: all 0.5 ease-in;
+}
+
+body
+{
+    font-family: monospace;
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(cover.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.row
+{
+    max-width: 1200px;
+    margin:auto;
+}
+
+.main-nav ul
+{
+    margin: 0px;
+    padding: 0px;
+    list-style:none;
+}
+
+.main-nav ul li
+{
+    
+    float: left;
+    color:azure;
+    text-decoration: none;
+    padding: 20px 0px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.main-nav li ul li
+{
+    display: none;
+}
+
+.main-nav li:hover ul li
+{
+    display: block;
+}
+
+
+
+
+
