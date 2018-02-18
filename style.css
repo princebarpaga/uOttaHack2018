@@ -87,7 +87,7 @@ header
     font-size: 15px;
 }
 
-.main-nav li a :hover
+.main-nav li a:hover
 {
     border: 1px solid white;
     background-color: darkturquoise;
